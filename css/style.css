@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* helpers */
+.list-style {
+  display: flex;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+/* / helpers */
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  width: 60%;
+  background-color: grey;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper .nav-dx ul li {
+  margin-left: 20px;
+}
+.wrapper .nav-sx ul li {
+  margin-left: 20px;
+}
