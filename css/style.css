@@ -7,27 +7,14 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-.btn-black {
-  background-color: black;
-  color: #ffff;
-  border-radius: 10px;
-  padding: 15px 20px;
-  border-style: none;
-}
-.btn-white {
-  background-color: lightgray;
-  color: black;
-  border-radius: 10px;
-  padding: 15px 20px;
-  border-style: none;
-}
 a {
   text-decoration: none;
-  color: lightgray;
-  font-size: 16px;
+  color: #a9a9a9;
+  font-size: 15px;
 }
 button {
   cursor: pointer;
+  font-size: 15px;
 }
 
 /* helpers */
@@ -37,6 +24,20 @@ button {
 }
 .list-style {
   list-style: none;
+}
+.btn-black {
+  background-color: black;
+  color: #ffff;
+  border-radius: 12px;
+  padding: 15px 22px;
+  border-style: none;
+}
+.btn-white {
+  background-color: lightgray;
+  color: black;
+  border-radius: 12px;
+  padding: 15px 22px;
+  border-style: none;
 }
 /* / helpers */
 
