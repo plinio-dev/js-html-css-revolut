@@ -21,14 +21,6 @@ body {
   padding: 15px 20px;
   border-style: none;
 }
-/* helpers */
-.list-style-flex {
-  display: flex;
-  list-style: none;
-}
-.list-style {
-  list-style: none;
-}
 a {
   text-decoration: none;
   color: lightgray;
@@ -36,6 +28,15 @@ a {
 }
 button {
   cursor: pointer;
+}
+
+/* helpers */
+.list-style-flex {
+  display: flex;
+  list-style: none;
+}
+.list-style {
+  list-style: none;
 }
 /* / helpers */
 
@@ -60,15 +61,10 @@ header {
 }
 
 .wrapper .nav-dx .ul-b li {
-  text-align: center;
   padding: 15px;
   position: relative;
 }
-.wrapper .nav-sx .ul-a{
-  display: flex;
-  align-items: center;
-}
-.wrapper .nav-dx .ul-b{
+.wrapper .nav-sx .ul-a, .wrapper .nav-dx .ul-b {
   display: flex;
   align-items: center;
 }
@@ -96,6 +92,6 @@ header {
 
 
 .sub-1 li, .sub-2 li, .sub-3 li {
-  padding-bottom: 10px;
+  padding-bottom: 5px;
   margin: 0;
 }
