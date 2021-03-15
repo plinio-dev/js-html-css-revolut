@@ -5,8 +5,11 @@
 }
 
 /* helpers */
-.list-style {
+.list-style-flex {
   display: flex;
+  list-style: none;
+}
+.list-style {
   list-style: none;
 }
 a {
@@ -14,6 +17,12 @@ a {
   color: black;
 }
 /* / helpers */
+
+.nav-dx li:hover , .nav-sx li:hover {
+  background-color: lightseagreen;
+}
+
+
 
 header {
   display: flex;
@@ -27,9 +36,24 @@ header {
   justify-content: space-between;
 }
 
-.wrapper .nav-dx ul li {
+.wrapper .nav-dx .ul-b li {
   margin-left: 20px;
+  position: relative;
 }
-.wrapper .nav-sx ul li {
-  margin-left: 20px;
+.wrapper .nav-sx .ul-a li {
+  margin-right: 20px;
+}
+
+.sub-1, .sub-2, .sub-3 {
+  position: absolute;
+  display: none;
+  background-color: gray;
+  border-radius: 8px;
+  text-align: center;
+}
+
+
+.sub-1 li, .sub-2 li, .sub-3 li {
+  padding-bottom: 20px;
+  margin: 0;
 }
